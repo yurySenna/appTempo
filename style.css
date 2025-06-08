@@ -88,3 +88,43 @@ body {
     color: #ffffff;
     margin-top: 20px;
 }
+
+.previsao-dias {
+    display: flex;
+    gap: 10px; 
+    margin-top: 20px;
+}
+
+.dia {
+    background-color: #e0f7fa;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 80px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+.dia:hover {
+    background-color: #ffffff9c;
+
+}
+.dia img {
+    width: 40px;
+    height: 40px;
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 70%;
+    }
+
+    .dia {
+        width: 55px;
+        padding: 5px;
+        font-size: 13px;
+        
+    }
+}
+ 
