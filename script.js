@@ -43,9 +43,9 @@ function mostrarPrevisao(dados) {
     previsoes.forEach(item => {
         const data = new Date(item.dt_txt)
         const dia = data.toLocaleDateString("pt-BR", { weekday: 'short', day: 'numeric', month: 'short' })
-
+    
         container.innerHTML += `
-            <div class="dia">
+            <div class="dia"> 
                 <p><strong>${dia}</strong></p>
                 <img src="https://openweathermap.org/img/wn/${item.weather[0].icon}.png">
                 <p>${Math.round(item.main.temp)}°C</p>

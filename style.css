@@ -104,6 +104,8 @@ body {
     box-shadow: 0 2px 5px rgba(0,0,0,0.2);
     font-family: Arial, sans-serif;
     font-size: 14px;
+     text-transform: capitalize;
+
 }
 
 .dia:hover {
@@ -117,13 +119,15 @@ body {
 
 @media (max-width: 600px) {
     .container {
-        width: 70%;
+        width: 80%;
+        
     }
 
     .dia {
         width: 55px;
         padding: 5px;
         font-size: 13px;
+        
         
     }
 }
