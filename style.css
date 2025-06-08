@@ -29,8 +29,8 @@ body {
     border: none;
     outline: none;
     padding: 10px;
-    border-radius: 25px;
-    font-size: 18px;
+    border-radius: 20px;
+    font-size: 16px;
     background-color: #7c7c7c2b;
     color: #ffffff;
     width: calc(100% - 50px) ;
@@ -86,7 +86,7 @@ body {
 
 .umidade {
     color: #ffffff;
-    margin-top: 20px;
+    margin-top: 15px;
 }
 
 .previsao-dias {
@@ -94,6 +94,15 @@ body {
     gap: 10px; 
     margin-top: 20px;
 }
+
+.five-days {
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: 300;
+    text-align: center;
+    margin: 10px;
+}
+
 
 .dia {
     background-color: #e0f7fa;
@@ -126,7 +135,7 @@ body {
     .dia {
         width: 55px;
         padding: 5px;
-        font-size: 13px;
+        font-size: 12px;
         
         
     }
